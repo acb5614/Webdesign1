@@ -24,3 +24,8 @@ a{
 a:hover{
 color:hotpink; 
 }
+
+li{
+display:inline;
+margin-top: 300px;
+}
