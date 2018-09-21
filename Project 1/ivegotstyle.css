@@ -1,41 +1,61 @@
 body {
+    color:black;
     background-color: white;
     font-family: 'Raleway', sans-serif;
-    margin-top: 100px;
     margin-left:100px;
 }
 
 h1 {
-    color: lavender;
+   animation: pulse 5s infinite;
     font-weight: 100;
-    font-size: 35px;
+    font-size: 38px;
     padding-bottom:10px;
+    margin-top: 150px;
 }
+@keyframes pulse {
+  0% {
+    color: lavender;
+  }
+  25% {
+   color: lavenderblush;
+  }
+  50% {
+   color: antiquewhite;
+  }
+    75% {
+   color: lightcyan;
+  }
+      100% {
+   color: lavender;
+  }
+    
+}
+
 h3 {
-    color:alice;
     font-weight: 50;
     margin-top: -30px;
     font-size: 13px;
     line-height: 1.4;
 }
+/*why won't these links change color*/
 a{
-    color:alice;
+    color:lightblue;
     text-decoration: none;
 }
 a:hover{
 color:hotpink;     
 }
 a:visited{
-    color:alice;
-    text-decoration: none;
+color:lightblue;     
 }
+
 ul{
-    margin-top:-15px;
-    margin-left:-38px;
+    margin-right:80px;
+    margin-top: -50px;
+    float:right;
 }
 li{
 display:inline;
-margin-top: 300px;
 font-size: 13px;
 }
 */
@@ -46,4 +66,7 @@ img{
     width: 30%;
     height: 30%;
 
+}
+.images{
+    margin-top: 40px;
 }
