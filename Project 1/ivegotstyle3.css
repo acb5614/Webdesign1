@@ -1,0 +1,102 @@
+body {
+    color:black;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-left:100px;
+    margin-top: 50px;
+    -webkit-animation-name: move;
+    	-webkit-animation-duration: 1s;
+    	-webkit-animation-timing-function: linear;
+}
+p{
+    margin-right:300px;
+}
+@-webkit-keyframes move {
+    	0% {
+    		margin-top: -300px;
+    	}
+    	100% {
+    		margin-top: 50px;
+    	}
+    }
+
+h1 {
+   animation: pulse 5s infinite;
+    font-weight: 100;
+    font-size: 38px;
+    padding-bottom:10px;
+    margin-left:100px;
+}
+h5{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Vesper Libre', serif;
+    margin-left:100px;
+    
+}
+@keyframes pulse {
+  0% {
+    color: lavender;
+  }
+  25% {
+   color: lavenderblush;
+  }
+  50% {
+   color: antiquewhite;
+  }
+    75% {
+   color: lightcyan;
+  }
+      100% {
+   color: lavender;
+  }
+    
+}
+
+h3 {
+    font-weight: 50;
+    margin-top: -30px;
+    font-size: 13px;
+    line-height: 1.4;
+    margin-left:100px;
+}
+/*why won't these links change color*/
+a{
+    color:lightblue;
+    text-decoration: none;
+}
+a:hover{
+color:hotpink;     
+}
+a:visited{
+color:lightblue;     
+}
+
+ul{
+    position: fixed;
+    margin-top: 80px;
+    margin-left:62px;
+}
+li{
+display:inline;
+font-size: 13px;
+}
+*/
+.header{
+    background-color:white;
+}
+img{
+    width: 30%;
+    height: 30%;
+
+}
+.images{
+    margin-top:300px;
+    margin-left:100px;
+    white-space: nowrap; /* [1] */
+  overflow-x: auto; /* [2] */
+  -webkit-overflow-scrolling: touch; /* [3] */
+  -ms-overflow-style: -ms-autohiding-scrollbar; /* [4] */ }
+}
+.images::-webkit-scrollbar {
+  display: none; }
