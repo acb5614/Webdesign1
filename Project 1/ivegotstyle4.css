@@ -1,0 +1,93 @@
+body {
+    color:black;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-left:50px;
+    margin-right: 50px;
+}
+
+h1 {
+   animation: pulse 5s infinite;
+    font-weight: 100;
+    font-size: 38px;
+    padding-bottom:10px;
+    margin-top: 150px;
+    text-align: center;
+}
+@keyframes pulse {
+  0% {
+    color: lavender;
+  }
+  25% {
+   color: lavenderblush;
+  }
+  50% {
+   color: antiquewhite;
+  }
+    75% {
+   color: lightcyan;
+  }
+      100% {
+   color: lavender;
+  }
+    
+}
+h4{
+    font-size:30px;
+}
+p{
+    margin-left:200px;
+    margin-right:200px;
+}
+h3 {
+    font-weight: 50;
+    margin-top: -30px;
+    font-size: 13px;
+    line-height: 1.4;
+}
+/*why won't these links change color*/
+a{
+    color:lightblue;
+    text-decoration: none;
+}
+a:hover{
+color:hotpink;     
+}
+a:visited{
+color:lightblue;     
+}
+
+ul{
+    margin-right:80px;
+    margin-top: -50px;
+    float:right;
+}
+li{
+display:inline;
+font-size: 13px;
+}
+*/
+.header{
+    background-color:white;
+}
+img{
+    width:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+.images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.schedule{
+    border: 5px;
+
+}
+.circuit{
+    width:10%;
+}

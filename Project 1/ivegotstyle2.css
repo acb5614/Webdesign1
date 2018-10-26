@@ -2,9 +2,13 @@ body {
     color:black;
     background-color: white;
     font-family: 'Raleway', sans-serif;
-    margin-left:50px;
+    margin-left:100px;
     margin-right: 50px;
+    margin-top: 200px;
+    
+    
 }
+
 
 h1 {
    animation: pulse 5s infinite;
@@ -12,23 +16,23 @@ h1 {
     font-size: 38px;
     padding-bottom:10px;
     margin-top: 150px;
-    text-align: center;
+    text-align: left;
 }
 @keyframes pulse {
   0% {
-    color: lavender;
+    color: lightblue;
   }
   25% {
    color: lavenderblush;
   }
   50% {
-   color: antiquewhite;
+   color: #fff35c;
   }
     75% {
    color: lightcyan;
   }
       100% {
-   color: lavender;
+   color: lightblue;
   }
     
 }
@@ -41,6 +45,7 @@ h3 {
     margin-top: -30px;
     font-size: 13px;
     line-height: 1.4;
+    text-align: left;
 }
 /*why won't these links change color*/
 a{
@@ -55,9 +60,10 @@ color:lightblue;
 }
 
 ul{
-    margin-right:80px;
-    margin-top: -50px;
-    float:right;
+ margin-top:30px;
+    text-align: left;
+    margin-left: -40px;
+ 
 }
 li{
 display:inline;
@@ -83,9 +89,8 @@ img{
     border: 5px;
 }
 .individual{
-    width:30%;
-    margin-top:300px;
-    margin-left:100px;
+    margin-top:40px;
+
     white-space: nowrap; /* [1] */
   overflow-x: auto; /* [2] */
   -webkit-overflow-scrolling: touch; /* [3] */
